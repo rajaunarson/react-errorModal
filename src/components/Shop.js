@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import { Button, Modal } from 'react-bootstrap';
-import '../styles/FormStyle.css';
+import '../styles/FormStyle.css'; 
 
 function Shop() {
   const [phone, setphone] = useState('');
